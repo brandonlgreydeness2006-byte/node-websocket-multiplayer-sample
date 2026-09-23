@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WebSocket Multiplayer Sample</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>WebSocket Multiplayer Demo</h1>
+    <p>Open this page in two browser tabs. Move with WASD or the arrow keys.</p>
+    <div class="toolbar">
+      <input id="name" maxlength="20" placeholder="Player name">
+      <button id="saveName">Set name</button>
+      <span id="status">Connecting…</span>
+    </div>
+    <div id="world"></div>
+  </main>
+  <script src="/client.js"></script>
+</body>
+</html>
